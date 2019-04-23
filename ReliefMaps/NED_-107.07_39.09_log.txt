@@ -1,0 +1,41 @@
+Log for creating 3D model tile(s) for  NED_-107.07_39.09
+DEM_name = USGS/NED
+trlat = 39.1933722226
+trlon = -106.937293018
+bllat = 38.9913937614
+bllon = -107.202338184
+printres = 0.4
+ntilesx = 1
+ntilesy = 1.0
+tilewidth = 80.0
+basethick = 1
+zscale = 1.5
+fileformat = STLb
+
+bllon=-107.202338184&basethick=1&printres=0.4&trlat=39.1933722226&ntilesy=1.0&ntilesx=1&zscale=1.5&DEM_name=USGS%2FNED&tilewidth=80.0&bllat=38.9913937614&trlon=-106.937293018&fileformat=STLb 
+
+process started: 19:18:45.885657
+Region (lat/lon):
+   39.1933722226 -106.937293018 (top right)
+   38.9913937614 -107.202338184 (bottom left)
+center at [-107.06981560058591, 39.09238299200161]  UTM 13 N ,  EPSG:32613
+lon/lat size in degrees: [0.265045166015625, 0.2019784612377009]
+x/y size in meters: [22930.01452109339, 22423.093683589785]
+0.4 mm print resolution => requested num samples (width x height): 200.0 x 195.578538888
+requesting 114.650072605 m resolution 
+Google Earth Engine raster: USGS/NED USGS National Elevation Dataset 1/3 arc-second
+d/l geotiff size: 0.158485412598 Mb
+<PIL.TiffImagePlugin.TiffImageFile image mode=F size=205x202 at 0x7F1039AD55F0>
+full raster (height,width):  (202, 205) float32
+map scale is 1 : 293790.811052
+Actual 3D print resolution (1 cell): 0.390243902439 mm
+elev min/max : 2390.83 to 4278.36
+elev min/max after x1.50 z-scaling: 3586.25 to 6417.54
+Cells per tile (x/y) 205 x 202
+1 x 1 tiles, tile size 80.00 x 78.83 mm
+
+tile 1 1 : height:  1.0 - 15.4557 mm , file size: 7.98 Mb
+
+total size for all tiles 7.98 Mb
+
+zip finished: 19:18:57.276276
